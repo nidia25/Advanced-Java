@@ -1,0 +1,15 @@
+D387 ADVANCE JAVA
+011309429
+ALBA AGUIRRE
+
+
+
+1. To deploy the current multithreaded  Spring application to the cloud I would use Microsoft Azure. This would be my preferred  cloud provider because it is a reliable environment with integrated Docker containers without managing underlying infrastructure.
+
+2.To start I would set up an Azure Container store my Docker image.
+
+3.Build my docker image locally with appropriate version tag and push it to my registry.
+
+4. Create an Azure Container Instance with the image from step 3.
+
+5.Lastly, I will deploy and expose my Azure Container instance to expose it on the internet or a private network--this will allow my app to be accessible to other users
